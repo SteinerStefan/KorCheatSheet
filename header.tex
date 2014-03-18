@@ -1,18 +1,28 @@
 %Schriftgrösse, Layout, Papierformat, Art des Dokumentes
-\documentclass[12pt,twoside,a4paper]{article}
+\documentclass[12pt,oneside,a4paper]{article}
+
+
+
 
 % Sprache, 
 \usepackage{CJKutf8}
 \usepackage[english]{babel}
 %to use korean
 \newenvironment{Korean}{%
-  \CJKfamily{mj}}{}
+ \CJKfamily{mj}}{}
 
 
 %Schriftarten
 \usepackage[T1]{fontenc}
 
-%tabularx package
-\usepackage{tabularx}
 
-
+%%%%%%%%%%
+% Farben %
+%%%%%%%%%%
+\usepackage{color}
+\definecolor{black}{rgb}{0,0,0}
+\definecolor{red}{rgb}{1,0,0}
+\definecolor{white}{rgb}{1,1,1}
+\definecolor{grey}{rgb}{0.8,0.8,0.8}
+\definecolor{green}{rgb}{0,.8,0.05}
+\definecolor{brown}{rgb}{0.603,0,0}

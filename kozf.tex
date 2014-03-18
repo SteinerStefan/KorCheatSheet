@@ -5,9 +5,13 @@
 %Tabellen Höhe
 \renewcommand{\arraystretch}{2}
 
+\newcommand{\impbox}[1]{\newline \fbox{\parbox[t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{\centering #1 }} \newline}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
 
 % standard header
 \input{./header}
+
+\renewcommand{\arraystretch}{2.5}
 
 \begin{document}
 %to write Korean
@@ -16,7 +20,7 @@
 %Titel
 \section*{\titleinfo}
 
-	\input{./part1}
+	\input{./part1.tex}
 %
 \end{CJK}
 
