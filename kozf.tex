@@ -7,7 +7,10 @@
 
 \newcommand{\impbox}[1]{\newline \fbox{\parbox[t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{\centering #1 }} \newline}
 \newcommand{\red}[1]{\textcolor{red}{#1}}
-
+\newcommand{\adj}[1]{\textcolor{green}{#1}}
+\newcommand{\subject}[1]{\textcolor{red}{#1}}
+\newcommand{\object}[1]{\textcolor{brown}{#1}}
+\newcommand{\ver}[1]{\textcolor{blue}{#1}}
 % standard header
 \input{./header}
 
@@ -19,6 +22,7 @@
 
 %Titel
 \section*{\titleinfo}
+\tableofcontents
 
 	\input{./part1.tex}
 %
